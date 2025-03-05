@@ -1,7 +1,7 @@
 # Evaluación Medio Término
 # Creado por:____________
 
-#install.packages("pacman") #Activar si es necesario
+if(!require(pacman)) install.packages("pacman", dependencies=TRUE)
 library("pacman")
 p_load("vroom",
        "ggplot2",
